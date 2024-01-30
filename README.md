@@ -56,6 +56,6 @@ Este proyecto está bajo la Licencia [MIT](LICENSE).
 ---
 
 Asegúrate de personalizar la información según las características específicas de tu proyecto. Este archivo README proporciona una guía básica para los usuarios y colaboradores potenciales.
-Puedes ver mi primer proyecto de proyecto subido a Vercel de forma individual en  https://vercel.com/metaanitas-projects/3js
+Puedes ver mi primer proyecto de proyecto subido a Vercel de forma individual en https://3js-seven.vercel.app/
 Espero te guste y valores mi esfuerzo, seguiremos intentando mejorar.
 Muchas gracias.
