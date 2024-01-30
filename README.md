@@ -1,6 +1,6 @@
 # Proyecto de Realidad Virtual con A-Frame
 
-Este proyecto utiliza A-Frame para crear una escena de realidad virtual donde se muestran diversos elementos, como pájaros, una casa, un perro, entre otros.
+Este proyecto, subido a Vercel, utiliza A-Frame para crear una escena de realidad virtual donde se muestran diversos elementos, algunos con movimiento como pájaros, una casa, un perro, esfera, cilindro, rocas, textura, entre otros.
 
 ## Contenido
 
@@ -16,14 +16,14 @@ La escena de realidad virtual incluye:
 
 - Un suelo verde con textura de hierba.
 - Un cielo azul claro con nubes
-- Modelo de pájaros volando de lado a lado
+- Modelo de pájaros volando del lado derecho al lado izquierdo y de abajo hacia arriba
 - Modelos de rocas para decoración.
 - Una casita con paredes y techo amarillo.
-- Una esfera rotatoria de color verde marino.
-- Un cilindro rojo y una esfera amarilla.
-- Modelos de avión volando.
-- Modelo de perro feliz observando al gato y moviendo su cola.
-- Un modelo de gato animado yendo detrás de la esfera rotatoria verde marino.
+- Una esfera rotatoria de color verde marino a modo de pelota que quiere alcanzar el gato.
+- Un cilindro rojo enmedio de la casita y una esfera naranja a modo de sol.
+- Modelos de avión despegando, girando, volando.
+- Modelo de perro feliz observándonos frente a la casita, moviéndose y moviendo su cola.
+- Un modelo de gato animado que anda y gira dentro de la casita, yendo detrás de la esfera rotatoria verde marino.
 
 ## Instalación
 
@@ -56,5 +56,6 @@ Este proyecto está bajo la Licencia [MIT](LICENSE).
 ---
 
 Asegúrate de personalizar la información según las características específicas de tu proyecto. Este archivo README proporciona una guía básica para los usuarios y colaboradores potenciales.
-Espero te guste, seguiremos mejorando.
+Puedes ver mi primer proyecto de proyecto subido a Vercel de forma individual en  https://vercel.com/metaanitas-projects/3js
+Espero te guste y valores mi esfuerzo, seguiremos intentando mejorar.
 Muchas gracias.
