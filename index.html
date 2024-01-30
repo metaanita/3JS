@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mi breafing inmersivo</title>
+  <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+  <script src="animacion.js"></script>
+
+  
+</head>
+
+<body>
+  <a-scene>
+    <a-camera position="8 3 25">
+    </a-camera>
+    <a-plane position="0 0 -5" rotation="-90 0 0" width="100" height="100"
+      src="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/GroundGrassGreen002_Sphere.png?v=1706388400941"
+      background color="yellow"></a-plane>
+    <a-sky color="lightblue"></a-sky>
+    <!-- Pájaros -->
+    <a-entity position="25 5 10"
+      animation="property: position; to: -50 30 -10; dir: ; dur: 9000; easing: linear; loop: true;">
+      <a-gltf-model id="birdsModel"
+        src="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/birds.glb?v=1706527215961"
+        scale="1 1 1"></a-gltf-model>
+    </a-entity>
+    <a-entity position="20 0 -50" scale="8 1 3" rotation="1 1 1"> <!-- las piedras -->
+      <a-gltf-model
+        src="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/stylized_rocks.glb?v=1706526090749"></a-gltf-model>
+    </a-entity>
+    <a-entity rotation="0 0 0">
+      <a-entity class="casita">
+        <a-box position="0 0 0" scale="10 0.4 10"
+          src="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/WoodFlooringAshSuperWhite001_COL_2K.jpg?v=1705923841071"></a-box>
+        <a-box position="0 5.2 -4.8" scale="10 0.3 10" rotation="90 0 0" color="yellow"></a-box>
+        <a-box position="-4.8017 5.12577 0.12777" scale="10 0.3 10" rotation="-90 90 0" color="yellow"></a-box>
+        <a-box position="4.91936 5.12577 0.12777" scale="10 0.3 10" rotation="-90 90 0" color="yellow"></a-box>
+        <a-box position="0 10.2 0" scale="10 0.3 10" rotation="3 0 0" color="yellow"></a-box>
+             </a-entity>
+    </a-entity>
+    <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 10000">
+      <a-sphere position="0 0.6 4" scale="0.5 0.5 0.5 " color="mediumseagreen"></a-sphere>
+      <a-entity scale="0.008 0.008 0.008" position="3 0 0" play-all-model-animations
+        gltf-model="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/toon_cat_free.glb?v=1705925934813">
+        <a-entity scale="0.01 0.01 0.01">
+          gltf-model= scale="0.01 0.01 0.01" position="3 0 0" play-all-model-animations
+          gltf-model="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/happy_dog.glb?v=1706382230584">
+        </a-entity>
+      </a-entity>
+    </a-entity>
+    <a-cylinder position="0 1 0" radius="0.5" height="2" color="red"></a-cylinder>
+    <a-sphere position="-16 18 -5" radius="0.5" color="orange"></a-sphere>
+    <a-entity rotation="0 0 0" animation="property: rotation; to: 0 -360 0; loop: true; dur: 10000">
+      <a-gltf-model id="plane"
+        src="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/celera_500l.glb?v=1706380403001"
+        position="-50 0.15 0.1" scale="0.05 0.05 0.05" rotation="0 0 0"
+        animation__move="property: position; to: 12 38 -150; dur: 10000; easing: linear; loop: true;">
+      </a-gltf-model></a-entity>
+    <a-entity position="-2 0 15">
+      <a-gltf-model id="dogModel"
+        src="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/happy_dog.glb?v=1706382230584"
+        scale="0.1 0.1 0.1" rotation="0 -100 -1" play-all-model-animations>
+        </a-gltf-model>
+    </a-entity>
+    <a-entity>
+      <a-gltf-model
+        src="https://cdn.glitch.global/cdd343a5-537b-46f3-9479-efbef89a315b/free_-_skybox_in_the_cloud.glb?v=1706521455782"
+        position="0 50 0" scale="0.5 0.5 0.5"></a-gltf-model>
+    </a-entity>
+    </a-entity>
+  </a-scene>
+</body>
+
+</html>
