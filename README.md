@@ -21,9 +21,9 @@ La escena de realidad virtual incluye:
 - Una casita con paredes y techo amarillo.
 - Una esfera rotatoria de color verde marino a modo de pelota que quiere alcanzar el gato.
 - Un cilindro rojo enmedio de la casita y una esfera naranja a modo de sol.
-- Modelos de avión despegando, girando, volando.
-- Modelo de perro feliz observándonos frente a la casita, moviéndose y moviendo su cola.
-- Un modelo de gato animado que anda y gira dentro de la casita, yendo detrás de la esfera rotatoria verde marino.
+- Un  avión despegando, girando, volando y metiéndose entre las nubes para desaparecer.
+- Modelo de perro feliz observándonos frente a la casita, moviendo su cola.
+- Un modelo de gato animado andando que gira dentro de la casita, yendo detrás de la esfera rotatoria verde marino.
 
 ## Instalación
 
