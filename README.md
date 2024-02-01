@@ -18,7 +18,8 @@ La escena de realidad virtual incluye:
 - Un cielo azul claro con nubes
 - Modelo de pájaros volando del lado derecho al lado izquierdo y de abajo hacia arriba
 - Modelos de rocas para decoración.
-- Una casita con paredes y techo amarillo.
+- Un cubo rosa volador que se adentra en las nubes
+- Una casita con paredes, chimenea y techo amarillo de la que sale por detrás el cubo hacia el cielo.
 - Una esfera rotatoria de color verde marino a modo de pelota que quiere alcanzar el gato.
 - Un cilindro rojo enmedio de la casita y una esfera naranja a modo de sol.
 - Un  avión despegando, girando, volando y metiéndose entre las nubes para desaparecer.
